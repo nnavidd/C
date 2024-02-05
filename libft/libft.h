@@ -3,20 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nnabaeei <nnabaeei@student.42.fr>          +#+  +:+       +#+        */
+/*   By: navid <navid@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/23 17:24:16 by nnabaeei          #+#    #+#             */
-/*   Updated: 2022/11/15 15:27:40 by nnabaeei         ###   ########.fr       */
+/*   Created: 2024/02/05 07:05:43 by navid             #+#    #+#             */
+/*   Updated: 2024/02/05 07:50:35 by navid            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+
 # include <unistd.h>
 # include <stdlib.h>
 # include <stddef.h>
 # include <stdint.h>
+
 
 typedef struct s_list
 {
