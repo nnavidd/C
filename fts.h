@@ -13,7 +13,7 @@
 #ifndef FTS_H
 # define FTS_H
 
-# include "./libft/libt.h"
+# include "./libft/libft.h"
 # include "./gnl/get_next_line.h"
 # include "./ft_printf/ft_printf.h"
 
