@@ -1,20 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fts.h                                              :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nnabaeei <nnabaeei@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/23 17:24:16 by nnabaeei          #+#    #+#             */
-/*   Updated: 2024/02/12 18:58:57 by nnabaeei         ###   ########.fr       */
+/*   Created: 2024/02/12 19:00:16 by nnabaeei          #+#    #+#             */
+/*   Updated: 2024/02/12 19:01:50 by nnabaeei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FTS_H
-# define FTS_H
+#include "libft.h"
 
-# include "./libft/libft.h"
-# include "./gnl/get_next_line.h"
-# include "./ft_printf/ft_printf.h"
+int	ft_strcmp(char *s1, char *s2)
+{
+	int	i;
 
-#endif
+	i = 0;
+	while ((s1[i] || s2[i]) && s1[i] == s2[i])
+		i++;
+	return (s1[i] - s2[i]);
+}
